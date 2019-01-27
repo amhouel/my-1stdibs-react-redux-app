@@ -1,9 +1,11 @@
-import React, { Component } from "react";
-import "./style.css";
+import React, { Component } from 'react';
+import './style.css';
 
 class App extends Component {
   render() {
-    return <div className="App">Hello World</div>;
+    return (
+      <h1 className="App-welcome">Welcome!</h1>
+    );
   }
 }
 
